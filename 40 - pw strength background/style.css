@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.background {
+    background: url('https://images.unsplash.com/photo-1623794859006-9bf91ae62c91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80') no-repeat center center/cover;
+    bottom: -20px;
+    filter: blur(20px);
+    left: -20px;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    z-index: -1;
+}
